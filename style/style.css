@@ -16,7 +16,6 @@
 }
 body{
     background-color: var(--main-body-color);
-    color: var(--light-text-color);
 }
 span{
     color: var(--span);
@@ -49,6 +48,7 @@ span{
     background-repeat: no-repeat;
     background-size:cover;
     text-shadow: 2px 2px 4px #000000;
+    color: var(--light-text-color);
 }
 .Home h1, h3{
     color: var(--About-text-color);
@@ -90,9 +90,6 @@ span{
     z-index: 0;
     min-width:60%;
 }
-.About h1{
-    border-bottom: var(--span) 1px solid;
-}
 .A-content h2{
     color: var(--text-color);
     font-size: x-large;
@@ -122,95 +119,6 @@ span{
     color: var(--dark-text-color);
 }
 /* contact form */
-.Contact{
-    background-color: rgba(192, 236, 236, 0.574);
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(45, 106, 106, 0.7)),url(../Sources/contact_img.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    align-items: center;
-    justify-content: center;
-}
-.Contact h1{
-    border-bottom: var(--span) 2px solid;
-}
-.sub-title{
-    margin-top: 20px;
-    text-align: center;
-}
-.sub-title p {
-    margin-top: 20px;
-    font-weight: 300;
-    color: var(--main-header-text);
-}
-.c-wrapper{
-    margin-top: 25px;
-    display: flex;
-    min-width: 80%;
-    justify-content: space-between;
-    background-color: rgba(240, 252, 253, 0.586);
-    height: auto;
-    padding: 30px;
-    border-left: var(--span) 5px solid;
-    border-radius: 0 10px 10px 40px;
-}
-.Contact-info{
-    min-width: 55%;
-    align-self: center;
-}
-.info-wrap{
-    margin-bottom: 20px;
-    display: flex;
-}
-.info-wrap h4{
-    color: var(--span);
-}
-.icon i{
-    font-size: x-large;
-    border-radius: 100%;
-    margin-right: 15px;
-    padding: 10px;
-    color: var(--span);
-}
-.description{
-    padding: auto;
-}
-.description p{
-    font-size: medium;
-}
-.Contact-form{
-    /* background-color: rgba(208, 246, 246, 0.568); */
-    border-radius: 30px;
-    min-width: 45%;
-    padding: 25px;
-    padding-top: 40px;
-    border: var(--span) 1px solid;
-}
-.Contact-form h4{
-    text-align: center;
-}
-.Contact-form form{
-    display: flex;
-    flex-direction: column;
-}
-.Contact-form form label{
-    color: var(--span);
-    padding: 10px 0;
-}
-.Contact-form form input{
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    border-style:none;
-    border-bottom: var(--span) 3px solid;
-}
-.Contact-form form textarea{
-    max-height: 100px;
-    max-width: 100%;
-    min-width: 100%;
-    border: none;
-    border-radius: 3px;
-    border-bottom: var(--span) 3px solid;
-}
 .Contact-form form button{
     margin-top: 10px;
     background-color: var(--span);
