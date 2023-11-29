@@ -33,7 +33,6 @@ span{
 }
 .navbar a{
     color: var(--light-text-color);
-    margin: 0 10px;
 }
 .nav-item a:hover{
     color:var(--span);
