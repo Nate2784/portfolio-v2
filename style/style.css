@@ -44,7 +44,7 @@ span{
 }
 /* end of header */
 .Home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(1, 46, 46, 0.8)), url(../Sources/About_main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(1, 46, 46, 0.8)), url(../sources/About_main.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     text-shadow: 2px 2px 4px #000000;
