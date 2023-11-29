@@ -12,7 +12,7 @@
     --light-text-color:rgb(255, 255, 255);
     --dark-text-color: rgb(33, 59, 65);
     --cards-color:rgb(255, 255, 255);
-    --section-span: rgba(0, 119, 119, 0.337);
+    --section-span: rgba(146, 178, 181, 0.785);
 }
 body{
     background-color: var(--main-body-color);
